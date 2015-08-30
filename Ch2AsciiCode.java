@@ -9,25 +9,18 @@ package ch2asciicode;
 public class Ch2AsciiCode {
 
     public static void main(String[] args) {
-        char uprH = 72;
-        char lwrU = 117;
-        char lwrF = 102;
-        char lwrL = 108;
-        char lwrE = 101;
-        char lwrP = 112;
-        double asciiSum;
+        char uprH = 'H';
+        char lwrU = 'u';
+        char lwrF = 'f';
+        char lwrL = 'l';
+        char lwrE = 'e';
+        char lwrP = 'p';
+        int asciiSum;
         
         System.out.println("The word is 'Hufflepuff'");
-        System.out.print(uprH + " ");
-        System.out.print(lwrU + " ");
-        System.out.print(lwrF+ " ");
-        System.out.print(lwrF + " ");
-        System.out.print(lwrL + " ");
-        System.out.print(lwrE + " ");
-        System.out.print(lwrP + " ");
-        System.out.print(lwrU + " ");
-        System.out.print(lwrF + " ");
-        System.out.println(lwrF + " ");
+        System.out.println(uprH + " " + lwrU + " " + lwrF + " " + lwrF + " " +
+                lwrL + " " + lwrE + " " + lwrP + " " + lwrU + " " + lwrF +
+                 " " + lwrF);
         
         asciiSum = uprH + lwrU + lwrF + lwrF + lwrL + lwrE + lwrP + 
                 lwrU + lwrF + lwrF;
